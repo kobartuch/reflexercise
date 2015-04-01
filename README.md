@@ -71,6 +71,8 @@ Planned Milestones
       - Update GUI to start app at screen which allows user to choose which game to play
 
 
+All updates and commits are visible <a href ="https://github.com/kobartuch/reflexercise/commits/master"                                                                     title = "here">here</a> 
+
 --------------------------------------
 
 Related Projects
