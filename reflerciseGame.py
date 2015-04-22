@@ -6,11 +6,12 @@ import sys
 from random import randint
 from graphics import *
 
+## Find a python to .exe program which works for python 3.4 and use to
+## create working executable for final game
+
 class reflexerciseGame:
-    def __init__(self):
-        self.gui_Window()
-        
-    #def timer():
+    '''def __init__(self):
+        self.gui_Window()'''
 
     def gui_Window(self):
         win = GraphWin("Reflexercise", 1024, 780)
