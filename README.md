@@ -11,7 +11,16 @@ Developer: Karol Obartuch
             - Email: kobartuch@luc.edu or reflexercisegame@gmail.com  
             
 --------------------------------------
+Version 1.2 has been released!
 
+Albeit with some bugs, v1.2 has been commited. Although it is not in a playable state yet, progress has been made.
+
+Changelog for v1.2:
+            - Added highscores functionality, still needs testing
+            - Added timer to game
+            - Added a few new GUI buttons which will be completely finished in the next update
+
+--------------------------------------
 
 Mailing List
 
