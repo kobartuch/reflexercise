@@ -5,23 +5,32 @@ import traceback
 import sys
 from random import randint
 from graphics import *
+#from highscores import *
 
 ## Find a python to .exe program which works for python 3.4 and use to
 ## create working executable for final game
 
+##v1.2##
 class reflexerciseGame:
     '''def __init__(self):
         self.gui_Window()'''
 
+    '''Creates background window of GUI'''
     def gui_Window(self):
         win = GraphWin("Reflexercise", 1024, 780)
         win.setBackground("grey")
+
+        '''
+        highscoresTab = Rectangle(Point(300,200), Point(400,200))
+        highscoresTab.setOutline("black")
+        highscoresTab.draw(win)'''
 
     #check if mouseclick is inside target
        # if win.getMouse() ==
             #Undraw target and show timer
             #USE THIS FOR TIMER: http://stackoverflow.com/questions/22610043/how-do-i-create-a-reaction-timer-in-python-as-gui
 
+    '''Draws the targets on the user's screen'''
     def draw_target():
         target = Circle(Point(512, 340), 30)
         target2 = Circle(Point(512, 340), 50)
@@ -50,7 +59,10 @@ class reflexerciseGame:
                     timerEnd = time.clock()
                     clickedTarget = True
                     started = False
-            print(timerEnd - timerStart)
+            timeCounted = timerEnd - timerStart
+            #Add time to highscores
+                # highScores().add_to_scores()
+            print(timeCounted)
                     
             
 if __name__=='__main__':
